@@ -33,7 +33,7 @@ class Search extends Component {
   render() {
       console.log(this.state.images);
     return (
-      <div>
+      <div className="padded">
         <TextField 
             name="searchText"
             value={this.state.searchText}
